@@ -1,0 +1,8 @@
+Υπαρχει το αρχειο SentimentAnalysis.jar στο οποιο υπαρχει ολη η λειτουργικοτητα που αναφερθηκε 
+
+java -cp SentimentAnalysis.jar DataCollection.DataCollector για την συλλογη την προεπεξεργασια και  αποθηκευση των tweets. 
+
+java -cp SentimentAnalysis.jar SentimentAnalysis.SentimentAnalysis για την συναισθηματικη αναλυση. 
+
+Πριν την εκτελεση ωστοσο πρεπει να τρεχει ο Mongo daemon και να υπαρχει το senticnet3.rdf.xml, 
+secondary_emotions.txt, twitter4j.properties, ενας φακελος ./WordNet-3.0/dict που θα εχει την βαση WordNet 
